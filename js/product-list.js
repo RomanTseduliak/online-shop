@@ -11,6 +11,7 @@ class ProductList {
   }
   getProductById(id) {
     return this.products.find(el => el.id === id);
+    this.products.sort(a.price - b.price);
   }
   renderProducts(container, products) {
     let productListDomString = '';
@@ -19,7 +20,7 @@ class ProductList {
                   <div class="card product">
                     <img class="card-img-top" src="img/products/${
                       product.image
-                    }" 
+                    }"
                         alt="${product.title}">
                     <div class="card-body">
                       <h4 class="card-title">${product.title}</h4>

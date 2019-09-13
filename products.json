@@ -54,5 +54,12 @@
         "image": "tesla-roadster.jpg",
         "description": "Best sports car in the World",
         "price": 249999.99
+    },
+    {
+        "id": "9",
+        "title": "Alpaca",
+        "image": "alpakapa.jpg",
+        "description": "Best extrime & funny animal",
+        "price": 5050.00
     }
 ]
